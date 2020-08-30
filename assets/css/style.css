@@ -6,22 +6,3 @@ body{
 .hello-text{
     font-size: 10rem;
 }
-
-.img{
-    animation-name: loop;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    animation-delay: 0s;
-}
-
-
-@keyframes loop{
-    from{
-        display: none;
-    }
-
-    to{
-        display: inline;
-    }
-}

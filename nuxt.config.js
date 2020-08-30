@@ -23,7 +23,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Barlow&display=swap' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Barlow&display=swap' },
+      { rel: 'stylesheet', href: '/styles/cssanimation.min.css' },
+      { rel: 'stylesheet', href: '/scripts/sal/dist/sal.css' }
+    ],
+    script:[
+      {src:'/scripts/letteranimation.min.js'},
+      {src:'/scripts/sal/dist/sal.js'},
     ]
   },
   /*
